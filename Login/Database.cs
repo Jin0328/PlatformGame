@@ -9,7 +9,7 @@ public class Database
 
     public Database()
     {
-        connectionString_ = @"Data Source=se-database.database.windows.net;Initial Catalog=SQL_jiin;User ID=jiin;Password=jin2002!";
+        connectionString_ = @"Data Source=se-database.database.windows.net;Initial Catalog=SQL_jiin;User ID=;Password=";
         tableName_ = "login";
         connection_ = new SqlConnection(connectionString_);
         connection_.Open();
